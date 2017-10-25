@@ -8,7 +8,7 @@ The six possible exploits are:
 
 [X] Username Enumeration
 
-[ ]Insecure Direct Object Reference (IDOR)
+[X]Insecure Direct Object Reference (IDOR)
 
 [ ] SQL Injection (SQLi)
 
@@ -42,7 +42,13 @@ Vulnerability #2: __________________
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
+Vulnerability: Site Red has the information for two users not blocked. Therefore, information for users with "id=10" and "id=11" have their information out to the public before time or for people that are not working with the company anymore. Whereas, site Green and Blue have the users id blocked. This way only the people currently working with the company have their information out for the public to look at. This exploit can be easily be used for user data breach or other instances of information leak.
+
+GIF Walkthrough: 
+
+<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_1.gif?raw=true" alt="gif">
 
 Vulnerability #2: __________________
 
