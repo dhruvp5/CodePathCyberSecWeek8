@@ -24,7 +24,8 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: Username Enumeration
-Vulnerability: When an username is entered, like "jmonroe99" with a random passoword, the user will recieve an error stating that the login was unsuccesful. When a random 
+
+Vulnerability: When an username is entered, like "jmonroe99" with a random passoword, the user will recieve an error stating that the login was unsuccesful in a bold font. When a random username is typed in with a password the error message is popped up without the bold font. A random attacker can figure out the usernames in the database using this exploit.
 
 Vulnerability #2: __________________
 
