@@ -12,7 +12,7 @@ The six possible exploits are:
 
 [ ] SQL Injection (SQLi)
 
-[ ] Cross-Site Scripting (XSS)
+[X] Cross-Site Scripting (XSS)
 
 [ ] Cross-Site Request Forgery (CSRF)
 
@@ -37,8 +37,13 @@ GIF Walkthrough:
 
 <img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_0.gif?raw=true" alt="gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting (XSS)
 
+Vulnerability: Entering an XSS Attack in the "Feedback" section of the "Contact" will store the attack in the database. So, when the admin tries to access the feedbacks in order to answer any questions, they unlock the trap which in this case is just a normal pop-up. Whereas, site Red and Blue have protection against this vulnerability which will store the attack as a text and not run the XSS attack like the green site.
+
+GIF Walkthrough: 
+
+<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_3.gif?raw=true" alt="gif">
 
 ## Red
 
