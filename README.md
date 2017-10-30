@@ -22,7 +22,14 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection (SQLi)
+
+Vulnerability: The Salesperson page allows user to inject SQL code into the id number. To recreate replace the id number to   %27%20OR%20SLEEP(5)=0--%27 will inject the SQL code after 5 seconds. 
+
+GIF Walkthrough: 
+
+<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_2.gif?raw=true" alt="gif">
+
 
 Vulnerability #2: __________________
 
