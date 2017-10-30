@@ -10,13 +10,13 @@ The six possible exploits are:
 
 [X]Insecure Direct Object Reference (IDOR)
 
-[ ] SQL Injection (SQLi)
+[X] SQL Injection (SQLi)
 
 [X] Cross-Site Scripting (XSS)
 
 [ ] Cross-Site Request Forgery (CSRF)
 
-[ ] Session Hijacking/Fixation
+[X] Session Hijacking/Fixation
 
 Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
 
@@ -31,7 +31,13 @@ GIF Walkthrough:
 <img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_2.gif?raw=true" alt="gif">
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
+
+Vulnerability: This exploit allows an user to gain access to the blue site without actually logging into it. When you have Red and Blue site up, you can login into Red Site and you can gain access to the Blue Site automatically by clicking the login button into the Blue Site.
+
+GIF Walkthrough: 
+
+<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_6.gif?raw=true" alt="gif">
 
 
 ## Green
