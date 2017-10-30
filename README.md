@@ -24,7 +24,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection (SQLi)
 
-Vulnerability: The Salesperson page allows user to inject SQL code into the id number. To recreate replace the id number to   %27%20OR%20SLEEP(5)=0--%27 will inject the SQL code after 5 seconds. 
+Vulnerability: The Salesperson page allows user to inject SQL code into the id number. To recreate replace the id number to   `%27%20OR%20SLEEP(5)=0--%27` will inject the SQL code after 5 seconds. 
 
 GIF Walkthrough: 
 
