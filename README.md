@@ -37,7 +37,7 @@ Vulnerability: This exploit allows an user to gain access to the blue site witho
 
 GIF Walkthrough: 
 
-<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_6.gif?raw=true" alt="gif">
+<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_5.gif?raw=true" alt="gif">
 
 
 ## Green
