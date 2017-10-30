@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -14,7 +14,7 @@ The six possible exploits are:
 
 [X] Cross-Site Scripting (XSS)
 
-[ ] Cross-Site Request Forgery (CSRF)
+[X] Cross-Site Request Forgery (CSRF)
 
 [X] Session Hijacking/Fixation
 
@@ -68,9 +68,10 @@ GIF Walkthrough:
 
 <img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_1.gif?raw=true" alt="gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
+Vulnerability: The Red Site allows you to change Salesperson data after changing the CSRF token, however, the Green Site will throw an error if you try to do the same thing. This allows anyone to change an user's data without access.
 
-## Notes
+GIF Walkthrough: 
 
-Describe any challenges encountered while doing the work
+<img src="https://github.com/dhruvp5/CodePathCyberSecWeek8/blob/master/Asg8_4.gif?raw=true" alt="gif">
